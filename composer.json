@@ -1,4 +1,5 @@
 {
+    "$schema": "https://getcomposer.org/schema.json",
     "name": "dllobell/php-package-skeleton",
     "description": "A skeleton for creating my PHP packages.",
     "license": "MIT",
