@@ -19,16 +19,16 @@
     "homepage": "https://github.com/dllobell/php-package-skeleton",
     "require": {
         "php": "^8.4",
-        "laravel/prompts": "^0.3.6",
-        "illuminate/support": "^12.25"
+        "illuminate/support": "^12.25",
+        "laravel/prompts": "^0.3.6"
     },
     "require-dev": {
         "eolica/coding-standard": "^2.0",
         "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-type-coverage": "^4.0",
         "phpstan/phpstan": "^2.0",
         "rector/rector": "^2.0",
-        "symfony/var-dumper": "^7.0",
-        "pestphp/pest-plugin-type-coverage": "^4.0"
+        "symfony/var-dumper": "^7.0"
     },
     "autoload": {
         "psr-4": {
@@ -43,6 +43,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
